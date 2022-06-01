@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Arming Cabinet</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="cabinet.css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+<style>
+main { margin: 50px 50px;
+	   padding: 20px;
+	   display: block;
+} 
+main img { margin: 0;
+           float: right;
+}
+img{height: auto;
+    margin: 20px auto;
+    display: block;}
+* {
+  box-sizing: border-box;
+}
+input[type="text"], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+}
+input[type="submit"] {
+  background-color: #BA4538;
+  color: white;
+  padding: 10px 15px;
+  border:none;
+}
+input[type=submit]:hover {
+  background-color: #700F04;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.column, input[type=submit] {max-width: 600px;
+    width: 100%;
+    margin-top: 0;
+}
+.body { text-align: center;
+}
+.padded {padding-bottom:150px;}
+</style>
+</head>
+<body>
+	<header>
+	<img src="ArmingCabinet.png" alt="Site Logo" style="width: 100%;">
+	</header>
+<nav>
+	<a href="index.html">Home</a>
+    <a href="armor.html">Armor</a>
+	<a href="arms.html">Arms</a>
+	<a class="active" href="#contact">Contact</a>
+</nav>
+	<img src="ContactBanner.png" alt="Contact Banner" style="width: 100%;">
+	<main>
+			<p class="title">A S K &nbsp; M E</p>
+			<blockquote></blockquote>
+			<h1 class="body">Call the courier, send a pigeon, summon the watchmen! Or send me your thoughts through this form.</h1>
+			
+			<div class="container">
+  <div style="text-align:center">
+    <h3>Leave your thoughts below:</h3>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="ContactImage.jpg" alt="Contact Image" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="mailto:michaelto@email.com" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name...">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="e-mail" placeholder="Your e-mail address...">
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject">
+		  <option>Choose one...</option>
+          <option value="Comments">Comments</option>
+          <option value="Inquiries">Inquiries</option>
+          <option value="Suggestions">Suggestions</option>
+		  <option value="Kudos">Kudos</option>
+		  <option value="Other">Other</option>
+        </select>
+        <label for="body">What Say Thee?</label>
+        <textarea id="body" name="body" placeholder="Write something..." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>			
+
+			<div class="padding">
+			<br><br>
+		</div>	
+	</main>
+	
+<footer>
+	
+	Copyright &copy; Michael To, Last Revision: 12/17/2020 <br><br>
+	
+</footer>
+
+</body>
+</html>

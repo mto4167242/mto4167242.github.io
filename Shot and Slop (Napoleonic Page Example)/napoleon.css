@@ -1,0 +1,89 @@
+body { background-color: #FFFFFF; /* White */
+	   color: #000033;  /* Dark Blue */
+	   font-family: Georgia, serif;
+       background-image: url(French_Country.jfif);
+	   background-repeat: no-repeat;
+	   background-attachment: fixed;
+	   background-size: cover;
+	   line-height: 2;
+	   font-size: 20px;}
+header {padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #000033; 
+	    color: #FFFFFF; 
+		line-height: 400%; 
+		text-indent: 1em;
+		background-image: url(Cover.jpg);
+		background-repeat: no-repeat; 
+		background-position: right top;
+		background-size: 150px 200px;
+		}
+nav { background-color: #05386B; /* Azure */
+	  font-weight: bold;
+	  padding: 18px 20px;
+	  text-align:center;
+		}
+nav a {text-decoration: none;
+       color: #FFFFFF;
+	   }
+nav a:hover {
+  color: grey;
+}
+{
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+#wrapper { background-color: #FFFFFF; 
+           width: 80%;
+		   margin: auto;
+           min-width:850px;
+		   padding: 70px;
+		   border: 15px solid #000033;}
+.mainimg {display: block;
+ margin: 20px;
+ border: 10px solid #A82E16; /* Deep Red */
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+table {border-collapse: collapse;
+		border: 5px solid #A82E16; /* Deep Red */
+}
+table caption {font-size: 150%;
+				font-weight: bold;
+				color: #05386B; 
+				line-height: 2 em;
+		}
+td, th {padding 0.5 em;
+		border: 2px solid #CCA826; /* Gold */
+}
+td {text-align: center;
+}
+h1 {margin-bottom: 0; 
+		font-family: Georgia, Times New Roman, serif;
+		}
+h2 { color: #05386B;
+		font-family: Georgia, Times New Roman, serif;
+		font-size: 60px;
+}
+h3 {font-family: Georgia, Times New Roman, serif;
+		color: #C3073F
+		}
+ul {list-style-image: url (marker.gif)
+		}
+dt { color: #002171 }
+
+footer {font-size: 75%; 
+		font-style: italic;
+		text-align: center;
+		font-family: Georgia, Times New Roman, serif;
+		}

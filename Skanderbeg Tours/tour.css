@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+html {font-size:100%;}
+
+body {
+  font-family: Georgia, Garamond, serif;
+  background-color: #E3BE91;
+  background-image: url(pic/background.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  padding: 25px;
+  margin: 0;
+  line-height:1.5;
+}
+/* Trip Map */
+.map {
+height:100%;
+}
+/* Center the site */
+.main {
+  max-width: 1024px;
+  margin: auto;
+  background-color: #333;
+}
+
+.row {
+  display: flex;
+}
+
+/* Padding for the Columns */
+
+.row > .column {
+  padding: 6px;
+}
+
+.column {
+  
+  display: flex;
+  flex: 33.3%;
+
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content img {width:100%;
+display: block;
+}
+
+/* Header Image and Styling */
+
+.header img {width:100%}
+
+/* Style the top navigation bar */
+ul.topnav {
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+/* Navigation Styles */
+ul.topnav a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+.special {
+  background-color:red;
+  color:white;
+}
+.active {
+   background-color: #222;
+}
+/* Change color on hover */
+ul.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Video Styles*/
+.vidcontain	{margin:auto;
+			text-align: center;}
+/* Text Styles */
+h2 {
+	color: white;
+    text-align: center;
+}
+h3,h4,h5 {text-align: center;}
+h4,h5 {color: white;}
+.subtext {font-size: 10px;
+color: gray;
+}
+/* Footer Styles */
+footer {
+	color: white;
+	background-color: #333;
+	text-align: center;
+	padding: 2px 6px;
+}
+
+
+/* Responsiveness at smaller dimensions */
+/* Smartphones */
+@media (max-width: 600px)  {
+	.row{
+		flex-direction: column;
+		flex: 100%;
+	}
+	    ul.topnav li.right,
+		ul.topnav li {float: none;}
+}
+@media (min-width: 640px) { body {font-size:1em;} } 
+@media (min-width:960px) { body {font-size:1.2em;} } 
+@media (min-width:1100px) { body {font-size:1.5em;} } 

@@ -1,0 +1,1 @@
+To open the website, locate and double click "index.html". This should open the website in your browser to view!
