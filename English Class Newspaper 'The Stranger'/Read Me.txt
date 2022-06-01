@@ -1,2 +1,0 @@
-This was tasked in high school to create a 'newspaper' that gave insight into the author and the background of a book
-the teacher particularly liked called 'The Stranger.'
